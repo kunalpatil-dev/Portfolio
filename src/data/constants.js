@@ -75,6 +75,10 @@ export const skills = [
         name: "Postgresql",
         image: "https://www.postgresql.org/media/img/about/press/elephant.png",
       },
+      {
+        name: "Prisma ORM",
+        image: "https://img.icons8.com/color/200w/prisma-orm.png",
+      },
     ],
   },
   {
