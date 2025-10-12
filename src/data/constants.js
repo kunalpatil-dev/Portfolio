@@ -2,6 +2,8 @@ import amazon_clone from "../images/amazon_clone.png"
 import todo from "../images/todo.png"
 import tic_tac_toe from "../images/tic_tac_toe.png"
 import weather from "../images/weather.png"
+import socialsync from "../images/socialsync.png"
+import smartlms from "../images/smartlms.png"
 import bootstrap_project from "../images/bootstrap_project.png"
 import frontend_certificate from "../images/frontend_certificate.jpg"
 import coding_savvy from "../images/coding_savvy.jpg"
@@ -16,12 +18,37 @@ export const Bio = {
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   
-  github: "https://github.com/kunal-patil-dev",
+  github: "https://github.com/kunalpatil-dev",
   resume: "https://drive.google.com/file/d/1N6jJSnfIRhxzgeoXZtEf5hYHL2mO57Fs/view",
   linkedin: "https://www.linkedin.com/in/kunal-patil-bb7674274?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ",
 };
 
 export const skills = [
+  {
+    title: "Programming Languages",
+    skills: [
+      {
+        name: "JavaScript (ES6+)",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+      },
+      {
+        name: "Java",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ7tQBPjkPaJXrizazeYshN1G0Vj5m_O4Z7Q&s",
+      },
+      {
+        name: "TypeScript",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png"
+      },
+      {
+        name: "Python",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png",
+      },
+      {
+        name: "C++",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png",
+      },
+    ],
+  },
   {
     title: "Frontend",
     skills: [
@@ -36,18 +63,30 @@ export const skills = [
           "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
       },
       {
-        name: "HTML",
+        name: "HTML5",
         image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
       },
       {
-        name: "CSS",
+        name: "CSS3",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
       },
       {
-        name: "Tailwind",
+        name: "Tailwind CSS",
         image:
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUGec7kH2HjxuwdnV0XH2KyojMdkYLJU-sfw&s",
+      },
+      {
+        name: "Redux Toolkit",
+        image: "https://www.svgrepo.com/show/303557/redux-logo.svg",
+      },
+      {
+        name: "TanStack Query",
+        image: "https://storage.googleapis.com/zenn-user-upload/topics/3a56c6c8af.png",
+      },
+      {
+        name: "Zustand",
+        image: "https://user-images.githubusercontent.com/958486/218346783-72be5ae3-b953-4dd7-b239-788a882fdad6.svg",
       },
       {
         name: "Bootstrap",
@@ -79,16 +118,23 @@ export const skills = [
         name: "Prisma ORM",
         image: "https://img.icons8.com/color/200w/prisma-orm.png",
       },
+      {
+        name: "REST APIs",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe5tJqLPXNRv9d747wbYMg-iK6U-j7QljdmQ&s",
+      },
+      {
+        name: "JWT",
+        image: "https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/4/jwt-icon-138bxvrhijus263d2f2wur.png/jwt-icon-aqjx58uyj3lrxtborzgyg.png?_a=DATAg1AAZAA0",
+      },
+      {
+        name: "OAuth",
+        image: "https://cdn-icons-png.flaticon.com/512/17076/17076709.png",
+      },
     ],
   },
   {
     title: "Others",
     skills: [
-      {
-        name: "Java",
-        image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ7tQBPjkPaJXrizazeYshN1G0Vj5m_O4Z7Q&s",
-      },
       {
         name: "Git",
         image:
@@ -97,7 +143,27 @@ export const skills = [
       {
         name: "GitHub",
         image:
-          "https://toppng.com/uploads/preview/github-logo-11609362429jyqzrkf6k1.png",
+          "https://img.favpng.com/20/3/17/github-computer-icons-logo-repository-png-favpng-3D6iEY0b391hz9PYJZqnvKTLT.jpg",
+      },
+      {
+        name: "Firebase",
+        image:
+          "https://vectorseek.com/wp-content/uploads/2025/05/Firebase-icon-Logo-PNG-SVG-Vector.png",
+      },
+      {
+        name: "Google Gemini API",
+        image:
+          "https://pipedream.com/s.v0/app_ArhjGP/logo/orig",
+      },
+      {
+        name: "Razorpay",
+        image:
+          "https://w7.pngwing.com/pngs/88/578/png-transparent-razorpay-logo-thumbnail-tech-companies-thumbnail.png",
+      },
+      {
+        name: "Stream API",
+        image:
+          "https://avatars.githubusercontent.com/u/8597527?s=200&v=4",
       },
       {
         name: "Render",
@@ -122,24 +188,9 @@ export const skills = [
           "https://avatars.githubusercontent.com/u/164544218?s=200&v=4",
       },
       {
-        name: "VS Code",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
-      },
-      {
         name: "Figma",
         image:
           "data:image/png;base64,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",
-      },
-      {
-        name: "ChatGPT",
-        image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMdM9MEQ0ExL1PmInT3U5I8v63YXBEdoIT0Q&s",
-      },
-      {
-        name: "GitHub Copilot",
-        image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIhqSBHJRYq7veG8TtaDYMdz8k8UZR-zFaHg&s",
       },
     ],
   },
@@ -170,7 +221,7 @@ export const education = [
   {
     id: 0, 
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvABRYX2AA1UH9iqPgU-heBr5IWK1HgI1wJw&s",
-    school: "Bachelor of Engineering (B.E.) in Computer Engineering, (SPPU)",
+    school: "Bachelor of Engineering (B.E.) in Computer Engineering, (Pune University)",
     date: "Year: 2022 to 2026",
     desc: "I am currently pursuing a Bachelor's degree in Computer Engineering at RMD Sinhgad School of Engineering. I have completed 6 semesters. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
     degree: "RMD Sinhgad School of Engineering, Warje, Pune",
@@ -197,6 +248,28 @@ export const education = [
 
 export const projects = [
   {
+    id: 4,
+    title: "Smart LMS",
+    description:
+      "SaaS-based Learning Management System with AI-driven course discovery and secure payments.",
+    image: smartlms,
+    tags: ["React", "Nodde.js", "Express.js", "MongoDB", "Redux", "Firebase", "Razorpay", "OAuth", "Gemini API"],
+    category: "machine learning",
+    github: "https://github.com/kunalpatil-dev/SmartLMS",
+    webapp: "https://smart-lms-d0zm.onrender.com/",
+  },
+  {
+    id: 5,
+    title: "SocialSync",
+    description:
+      "Real-time social and language exchange platform with messaging, video calls, and onboarding flows",
+    image: socialsync,
+    tags: ["React", "Nodde.js", "Express.js", "MongoDB", " TanStack Query", "Tailwind CSS", "Zustand", "Stream API", "JWT"],
+    category: "machine learning",
+    github: "https://github.com/kunalpatil-dev/SocialSync",
+    webapp: "https://socialsync-sp8d.onrender.com/",
+  },
+  {
     id: 2,
     title: "Weather App",
     description:
@@ -204,7 +277,7 @@ export const projects = [
     image: weather,
     tags: ["React JS", "HTML", "CSS"],
     category: "machine learning",
-    github: "https://github.com/kunal-patil-dev/Weather-App",
+    github: "https://github.com/kunalpatil-dev/Weather-App",
     webapp: "https://weather-app-peach-five-40.vercel.app/",
   },
   {
@@ -218,8 +291,8 @@ export const projects = [
       "CSS",
     ],
     category: "web app",
-    github: "https://github.com/kunal-patil-dev/Amazon-Clone",
-    webapp: "https://kunal-patil-dev.github.io/Amazon-Clone/",
+    github: "https://github.com/kunalpatil-dev/Amazon-Clone",
+    webapp: "https://kunalpatil-dev.github.io/Amazon-Clone/",
   },
   {
     id: 0,
@@ -229,8 +302,8 @@ export const projects = [
     image: todo,
     tags: ["HTML", "CSS", "JavaScript"],
     category: "web app",
-    github: "https://github.com/kunal-patil-dev/To-Do-List",
-    webapp: "https://kunal-patil-dev.github.io/To-Do-List/",
+    github: "https://github.com/kunalpatil-dev/To-Do-List",
+    webapp: "https://kunalpatil-dev.github.io/To-Do-List/",
   },
   {
     id: 1,
@@ -244,8 +317,8 @@ export const projects = [
       "JavaScript",
     ],
     category: "web app",
-    github: "https://github.com/kunal-patil-dev/Tic-Tac-Toe-Game",
-    webapp: "https://kunal-patil-dev.github.io/Tic-Tac-Toe-Game/",
+    github: "https://github.com/kunalpatil-dev/Tic-Tac-Toe-Game",
+    webapp: "https://kunalpatil-dev.github.io/Tic-Tac-Toe-Game/",
   },
   {
     id: 3,
@@ -258,16 +331,9 @@ export const projects = [
       "Bootstrap",
     ],
     category: "web app",
-    github: "https://github.com/kunal-patil-dev/Coding_Monkeys_Boostrap",
-    webapp: "https://kunal-patil-dev.github.io/Coding_Monkeys_Boostrap/",
+    github: "https://github.com/kunalpatil-dev/Coding_Monkeys_Boostrap",
+    webapp: "https://kunalpatil-dev.github.io/Coding_Monkeys_Boostrap/",
   },
 
 ];
 
-export const TimeLineData = [
-  { year: 2017, text: "Started my journey" },
-  { year: 2018, text: "Worked as a freelance developer" },
-  { year: 2019, text: "Founded JavaScript Mastery" },
-  { year: 2020, text: "Shared my projects with the world" },
-  { year: 2021, text: "Started my own platform" },
-];
