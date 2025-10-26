@@ -3,7 +3,7 @@ import todo from "../images/todo.png"
 import tic_tac_toe from "../images/tic_tac_toe.png"
 import weather from "../images/weather.png"
 import socialsync from "../images/socialsync.png"
-import smartlms from "../images/smartlms.png"
+import tasknote from "../images/tasknote.png"
 import bootstrap_project from "../images/bootstrap_project.png"
 import frontend_certificate from "../images/frontend_certificate.jpg"
 import coding_savvy from "../images/coding_savvy.jpg"
@@ -58,9 +58,18 @@ export const skills = [
           "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
       },
       {
-        name: "JavaScript",
+        name: "JavaScript (ES6+)",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+      },
+
+      {
+        name: "Redux Toolkit",
+        image: "https://www.svgrepo.com/show/303557/redux-logo.svg",
+      },
+      {
+        name: "TanStack Query",
+        image: "https://storage.googleapis.com/zenn-user-upload/topics/3a56c6c8af.png",
       },
       {
         name: "HTML5",
@@ -75,14 +84,6 @@ export const skills = [
         name: "Tailwind CSS",
         image:
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUGec7kH2HjxuwdnV0XH2KyojMdkYLJU-sfw&s",
-      },
-      {
-        name: "Redux Toolkit",
-        image: "https://www.svgrepo.com/show/303557/redux-logo.svg",
-      },
-      {
-        name: "TanStack Query",
-        image: "https://storage.googleapis.com/zenn-user-upload/topics/3a56c6c8af.png",
       },
       {
         name: "Zustand",
@@ -107,12 +108,21 @@ export const skills = [
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLG-N028bTJp3uj9yWfv6QO-4C3t-m29FefA&s",
       },
       {
+        name: "OAuth",
+        image: "https://cdn-icons-png.flaticon.com/512/17076/17076709.png",
+      },
+      {
         name: "MongoDB",
         image: "https://img.icons8.com/color/512/mongodb.png"
       },
       {
         name: "Postgresql",
         image: "https://www.postgresql.org/media/img/about/press/elephant.png",
+      },
+      
+      {
+        name: "JWT",
+        image: "https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/4/jwt-icon-138bxvrhijus263d2f2wur.png/jwt-icon-aqjx58uyj3lrxtborzgyg.png?_a=DATAg1AAZAA0",
       },
       {
         name: "Prisma ORM",
@@ -122,14 +132,7 @@ export const skills = [
         name: "REST APIs",
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe5tJqLPXNRv9d747wbYMg-iK6U-j7QljdmQ&s",
       },
-      {
-        name: "JWT",
-        image: "https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/4/jwt-icon-138bxvrhijus263d2f2wur.png/jwt-icon-aqjx58uyj3lrxtborzgyg.png?_a=DATAg1AAZAA0",
-      },
-      {
-        name: "OAuth",
-        image: "https://cdn-icons-png.flaticon.com/512/17076/17076709.png",
-      },
+      
     ],
   },
   {
@@ -144,21 +147,6 @@ export const skills = [
         name: "GitHub",
         image:
           "https://img.favpng.com/20/3/17/github-computer-icons-logo-repository-png-favpng-3D6iEY0b391hz9PYJZqnvKTLT.jpg",
-      },
-      {
-        name: "Firebase",
-        image:
-          "https://vectorseek.com/wp-content/uploads/2025/05/Firebase-icon-Logo-PNG-SVG-Vector.png",
-      },
-      {
-        name: "Google Gemini API",
-        image:
-          "https://pipedream.com/s.v0/app_ArhjGP/logo/orig",
-      },
-      {
-        name: "Razorpay",
-        image:
-          "https://w7.pngwing.com/pngs/88/578/png-transparent-razorpay-logo-thumbnail-tech-companies-thumbnail.png",
       },
       {
         name: "Stream API",
@@ -186,11 +174,6 @@ export const skills = [
         name: "Thunder Client",
         image:
           "https://avatars.githubusercontent.com/u/164544218?s=200&v=4",
-      },
-      {
-        name: "Figma",
-        image:
-          "data:image/png;base64,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",
       },
     ],
   },
@@ -230,7 +213,7 @@ export const education = [
     id: 1,
     img: "https://www.mahahsscboard.in/LogoBord.png",
     school: "Jay Bharat Higher Secondary School, Nilanga, Latur",
-    date: "Year: 2020 to 2022",
+    date: "Year: 2021 to 2022",
     grade: "88.2%",
     desc: "I completed my class 12 high school education at Jay Bharat Higher Secondary School, Nilanga, Latur, where I studied Science.",
     degree: "HSC(XII), Science",
@@ -247,17 +230,7 @@ export const education = [
 ];
 
 export const projects = [
-  {
-    id: 4,
-    title: "Smart LMS",
-    description:
-      "SaaS-based Learning Management System with AI-driven course discovery and secure payments.",
-    image: smartlms,
-    tags: ["React", "Nodde.js", "Express.js", "MongoDB", "Redux", "Firebase", "Razorpay", "OAuth", "Gemini API"],
-    category: "machine learning",
-    github: "https://github.com/kunalpatil-dev/SmartLMS",
-    webapp: "https://smart-lms-d0zm.onrender.com/",
-  },
+
   {
     id: 5,
     title: "SocialSync",
@@ -268,6 +241,17 @@ export const projects = [
     category: "machine learning",
     github: "https://github.com/kunalpatil-dev/SocialSync",
     webapp: "https://socialsync-sp8d.onrender.com/",
+  },
+  {
+    id: 4,
+    title: "TaskNote",
+    description:
+      "MERN-based productivity app for managing notes efficiently, featuring RESTful APIs, Upstash Redis rate limiting, and responsive design.",
+    image: tasknote,
+    tags: ["React", "Nodde.js", "Express.js", "MongoDB", "REST API", "Tailwind CSS"],
+    category: "machine learning",
+    github: "https://github.com/kunalpatil-dev/TaskNote",
+    webapp: "https://tasknote-2.onrender.com/",
   },
   {
     id: 2,
